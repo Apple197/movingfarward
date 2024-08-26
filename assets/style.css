@@ -86,11 +86,11 @@
     outline: none;
     background-color: transparent;
     padding: 1rem 0;
-    color: #137547;
+    color: var(--hero-form-button-color);
     font-family: var(--heading-font);
     font-weight: 600;
     font-size: 1.2rem;
-    border-bottom: 1px solid #137547;
+    border-bottom: 1px solid var(--hero-form-button-color);
     line-height: 1;
 }
 
@@ -104,4 +104,15 @@
     font-size: 1rem;
     font-weight: 700;
     border: none;
+    cursor: pointer;
+    color:  var(--hero-form-button-color);
+    margin-top: 2rem;
+}
+
+.hero-form .site-action-button::after{
+    border: 2px solid var(--hero-form-button-color);
+}
+
+.hero-form .site-action-button::before{
+    border: 2px solid var(--hero-form-button-color);
 }
