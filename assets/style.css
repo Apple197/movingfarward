@@ -116,3 +116,39 @@
 .hero-form .site-action-button::before{
     border: 2px solid var(--hero-form-button-color);
 }
+
+
+/* Here is the our experience section styling here */
+.our-experience-section{
+    padding: var(--inter-section-padding);
+    position: relative;
+}
+
+.experience-content-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    transform: translate(32%, 0);
+}
+
+.experience-content{
+    color: var(--secondary-color);
+}
+
+.experience-content h2{
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.experience-image{
+    height: 46rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.experience-image img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
