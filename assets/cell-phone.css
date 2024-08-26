@@ -1,0 +1,16 @@
+@media (max-width: 960px){
+    #header{
+        padding: 1.2rem 0;
+    }
+    .site-logo svg{
+        width: 50px;
+    }
+    .site-navigation ul{
+        display: none;
+    }
+
+    /* This part for mobile menu */
+    .mobile-menu{
+        display: grid;
+    }
+}

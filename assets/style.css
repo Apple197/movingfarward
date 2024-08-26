@@ -1,0 +1,107 @@
+/* Header section styling here */
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+#header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .site-logo svg{
+    width: 3.5rem;
+    height: auto;
+}
+
+#header .site-action-button{
+    color: var(--body-background-color);
+}
+
+#header .site-action-button::before{
+    border: 2px solid var(--body-background-color);
+}
+
+#header .site-action-button::after{
+    border: 2px solid var(--body-background-color);
+}
+
+
+/* Hero section styling here */
+.hero-section{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 150px 0 80px 0;
+    color: var(--body-background-color);
+}
+
+.hero-section .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+
+.hero-section .hero-content{
+    max-width: 33rem;
+}
+
+.hero-content h3{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-content p{
+    font-size: 1.2rem;
+}
+
+.hero-content .site-action-button{
+    color: var(--body-background-color);
+    margin-top: 2.5rem;
+}
+
+.hero-content .site-action-button::before{
+    border: 2px solid var(--body-background-color);
+}
+
+.hero-content .site-action-button::after{
+    border: 2px solid var(--body-background-color);
+}
+
+.hero-form{
+    background-color: var(--body-background-color);
+    max-width: 31.25rem;
+    justify-self: end;
+    padding: 2.5rem;
+}
+
+.hero-form input,
+.hero-form textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 1rem 0;
+    color: #137547;
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #137547;
+    line-height: 1;
+}
+
+.hero-form textarea{
+    height: 10rem;
+    resize: vertical;
+}
+
+.hero-form .site-action-button{
+    font-family: var(--normal-paragraph-font);
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+}
