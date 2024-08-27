@@ -122,14 +122,15 @@
 .our-experience-section{
     padding: var(--inter-section-padding);
     position: relative;
+    overflow-x: hidden;
 }
 
 .experience-content-wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
-    transform: translate(32%, 0);
+    column-gap: 5rem;
+    transform: translate(30%, 0);
 }
 
 .experience-content{
@@ -137,18 +138,58 @@
 }
 
 .experience-content h2{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: .5rem;
 }
 
-.experience-image{
-    height: 46rem;
-    width: 100%;
-    overflow: hidden;
+.experience-content p{
+    font-size: 1.2rem;
 }
 
 .experience-image img{
-    width: auto;
+    max-width: 40rem;
+    height: auto;
+    object-fit: cover;
+}
+
+.experience-numbers-wrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    column-gap: 7rem;
+    transform: translate(-16%, -45%);
+}
+
+.experience-numbers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 10rem;
+    justify-content: start;
+    color: var(--secondary-color);
+    margin-bottom: 4rem;
+}
+
+.experience-numbers div{
+    text-align: center;
+}
+
+.experience-numbers p{
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    line-height: 1;
+    margin-bottom: .5rem;
+}
+
+.experience-numbers span{
+    font-size: 1.2rem;
+    font-family: var(--normal-paragraph-font);
+    text-wrap: nowrap;
+}
+
+.experience-number-image img{
+    max-width: 40rem;
     height: auto;
     object-fit: cover;
 }
