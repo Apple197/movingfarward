@@ -65,6 +65,7 @@ body{
     font-size: 1rem;
     line-height: 1;
     font-optical-sizing: auto;
+    text-wrap: nowrap;
 }
 
 .site-action-button::before{
