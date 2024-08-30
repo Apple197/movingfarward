@@ -7,6 +7,11 @@ const siteLogo = document.querySelector('.site-logo');
 siteLogo.innerHTML = icon__Library.site__logo;
 siteLogo.addEventListener('click', home);
 
+var insertDummyIcon = document.querySelectorAll('.dummy_icon');
+insertDummyIcon.forEach((currElement) =>{
+  currElement.innerHTML = icon__Library.a_dummy_icon;
+})
+
 function home(){
     let hostname = location.hostname;
     location.href = hostname;
