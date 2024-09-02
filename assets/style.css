@@ -49,7 +49,7 @@
 }
 
 .hero-section .hero-content{
-    max-width: 33rem;
+    max-width: 34.375rem;
 }
 
 .hero-content h3{
@@ -140,7 +140,7 @@
 }
 
 .experience-content h2{
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: .5rem;
 }
 
@@ -331,6 +331,7 @@
   .why-choose-us .why-cards p {
     color: var(--hero-form-button-color);
     margin-top: 0.5rem;
+    font-size: 1.2rem;
   }
 
   .why-choose-us .why-cards span svg {
