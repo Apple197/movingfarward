@@ -317,7 +317,7 @@
   .why-choose-us .why-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
-    gap: 1.8rem;
+    gap: 3.5rem;
     margin-top: 2.5rem;
   }
 
@@ -349,7 +349,6 @@
   
   .why-cards div {
     transition: all 0.6s ease;
-    padding-inline: 1.5rem;
   }
   
   .why-cards div:hover {
@@ -363,5 +362,40 @@
 
   /*  Here is the getting started section styling here */
   .getting-started{
-    padding: var(--inter-section-padding);
+    margin-block-start: 12.5rem;
+    margin-block-end: 4.375rem;
+    background-image: url('image/getting-started-background.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .getting-started-wrapper{
+    background-color: var(--primary-color);
+    max-width: 28.125rem;
+    color: var(--body-background-color);
+    padding: 3rem;
+    transform: translateY(-80px);
+  }
+
+  .getting-started-wrapper h3{
+    font-size: 3rem;
+    margin-bottom: .5rem;
+  }
+
+  .getting-started-wrapper p{
+    font-size: 1.2rem;
+  }
+
+  .getting-started-wrapper .site-action-button{
+    color: var(--body-background-color);
+    margin-top: 2.5rem;
+  }
+
+  .getting-started-wrapper .site-action-button::after{
+    border: 2px solid var(--body-background-color);
+  }
+
+  .getting-started-wrapper .site-action-button::before{
+    border: 2px solid var(--body-background-color);
   }
