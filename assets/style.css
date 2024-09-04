@@ -1,401 +1,403 @@
 /* Header section styling here */
-#header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: transparent;
-    width: 100%;
-    padding: 2rem 0;
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  width: 100%;
+  padding: 2rem 0;
 }
 
-#header .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#header .site-logo svg{
-    width: 3.5rem;
-    height: auto;
+#header .site-logo svg {
+  width: 3.5rem;
+  height: auto;
 }
 
-#header .site-action-button{
-    color: var(--body-background-color);
+#header .site-action-button {
+  color: var(--body-background-color);
 }
 
-#header .site-action-button::before{
-    border: 2px solid var(--body-background-color);
+#header .site-action-button::before {
+  border: 2px solid var(--body-background-color);
 }
 
-#header .site-action-button::after{
-    border: 2px solid var(--body-background-color);
+#header .site-action-button::after {
+  border: 2px solid var(--body-background-color);
 }
-
 
 /* Hero section styling here */
-.hero-section{
-    background-color: var(--black-color);
-    color: var(--white-color);
-    padding: 150px 0 80px 0;
-    color: var(--body-background-color);
-    height: 100%;
+.hero-section {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  padding: 150px 0 80px 0;
+  color: var(--body-background-color);
+  height: 100%;
 }
 
-.hero-section .container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    align-items: center;
-    gap: 2rem;
+.hero-section .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  align-items: center;
+  gap: 2rem;
 }
 
-.hero-section .hero-content{
-    max-width: 34.375rem;
+.hero-section .hero-content {
+  max-width: 34.375rem;
 }
 
-.hero-content h3{
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+.hero-content h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-.hero-content p{
-    font-size: 1.2rem;
+.hero-content p {
+  font-size: 1.2rem;
 }
 
-.hero-content .site-action-button{
-    color: var(--body-background-color);
-    margin-top: 2.5rem;
+.hero-content .site-action-button {
+  color: var(--body-background-color);
+  margin-top: 2.5rem;
 }
 
-.hero-content .site-action-button::before{
-    border: 2px solid var(--body-background-color);
+.hero-content .site-action-button::before {
+  border: 2px solid var(--body-background-color);
 }
 
-.hero-content .site-action-button::after{
-    border: 2px solid var(--body-background-color);
+.hero-content .site-action-button::after {
+  border: 2px solid var(--body-background-color);
 }
 
-.hero-form{
-    background-color: var(--body-background-color);
-    max-width: 31.25rem;
-    justify-self: end;
-    padding: 2.5rem;
+.hero-form {
+  background-color: var(--body-background-color);
+  max-width: 31.25rem;
+  justify-self: end;
+  padding: 2.5rem;
 }
 
 .hero-form input,
-.hero-form textarea{
-    width: 100%;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    padding: 1rem 0;
-    color: var(--hero-form-button-color);
-    font-family: var(--heading-font);
-    font-weight: 600;
-    font-size: 1.2rem;
-    border-bottom: 1px solid var(--hero-form-button-color);
-    line-height: 1;
+.hero-form textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 1rem 0;
+  color: var(--hero-form-button-color);
+  font-family: var(--heading-font);
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-bottom: 1px solid var(--hero-form-button-color);
+  line-height: 1;
 }
 
-.hero-form textarea{
-    height: 10rem;
-    resize: vertical;
+.hero-form textarea {
+  height: 10rem;
+  resize: vertical;
 }
 
-.hero-form .site-action-button{
-    font-family: var(--normal-paragraph-font);
-    font-size: 1rem;
-    font-weight: 700;
-    border: none;
-    cursor: pointer;
-    color:  var(--hero-form-button-color);
-    margin-top: 2rem;
+.hero-form .site-action-button {
+  font-family: var(--normal-paragraph-font);
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  color: var(--hero-form-button-color);
+  margin-top: 2rem;
 }
 
-.hero-form .site-action-button::after{
-    border: 2px solid var(--hero-form-button-color);
+.hero-form .site-action-button::after {
+  border: 2px solid var(--hero-form-button-color);
 }
 
-.hero-form .site-action-button::before{
-    border: 2px solid var(--hero-form-button-color);
+.hero-form .site-action-button::before {
+  border: 2px solid var(--hero-form-button-color);
 }
-
 
 /* Here is the our experience section styling here */
-.our-experience-section{
-    padding: var(--inter-section-padding);
-    position: relative;
-    overflow-x: hidden;
+.our-experience-section {
+  padding: var(--inter-section-padding);
+  position: relative;
+  overflow-x: hidden;
 }
 
-.experience-content-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 5rem;
-    transform: translate(30%, 0);
+.experience-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5rem;
+  transform: translate(30%, 0);
 }
 
-.experience-content{
-    color: var(--secondary-color);
+.experience-content {
+  color: var(--secondary-color);
 }
 
-.experience-content h2{
-    font-size: 3rem;
-    margin-bottom: .5rem;
+.experience-content h2 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
-.experience-content p{
-    font-size: 1.2rem;
+.experience-content p {
+  font-size: 1.2rem;
 }
 
-.experience-image img{
-    max-width: 40rem;
-    height: auto;
-    object-fit: cover;
+.experience-image img {
+  max-width: 40rem;
+  height: auto;
+  object-fit: cover;
 }
 
-.experience-numbers-wrapper{
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    column-gap: 7rem;
-    transform: translate(-16%, 0);
-    margin-top: -15%;
+.experience-numbers-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  column-gap: 7rem;
+  transform: translate(-16%, 0);
+  margin-top: -15%;
 }
 
-.experience-numbers{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    gap: 10rem;
-    justify-content: start;
-    color: var(--secondary-color);
-    margin-bottom: 4rem;
+.experience-numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 10rem;
+  justify-content: start;
+  color: var(--secondary-color);
+  margin-bottom: 4rem;
 }
 
-.experience-numbers div{
-    text-align: center;
+.experience-numbers div {
+  text-align: center;
 }
 
-.experience-numbers p{
-    font-size: 4.5rem;
-    font-weight: 700;
-    font-family: var(--heading-font);
-    line-height: 1;
-    margin-bottom: .5rem;
+.experience-numbers p {
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: var(--heading-font);
+  line-height: 1;
+  margin-bottom: 0.5rem;
 }
 
-.experience-numbers span{
-    font-size: 1.2rem;
-    font-family: var(--normal-paragraph-font);
-    text-wrap: nowrap;
+.experience-numbers span {
+  font-size: 1.2rem;
+  font-family: var(--normal-paragraph-font);
+  text-wrap: nowrap;
 }
 
-.experience-number-image img{
-    max-width: 40rem;
-    height: auto;
-    object-fit: cover;
+.experience-number-image img {
+  max-width: 40rem;
+  height: auto;
+  object-fit: cover;
 }
-
 
 /* Here is the our story section styling here */
-.our-story-section{
-    padding: var(--inter-section-padding);
+.our-story-section {
+  padding: var(--inter-section-padding);
 }
 
-.our-story-section h3{
-    font-size: 3rem;
-    color: var(--secondary-color);
-    margin-bottom: 1.8rem;
+.our-story-section h3 {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  margin-bottom: 1.8rem;
 }
 
-.our-story-wrapper, .what-we-do-wrapper{
-    display: grid;
-    grid-template-columns: minmax(1.875rem, 1fr) minmax(0, 41.875rem) minmax(0, 41.875rem) minmax(1.875rem, 1fr);
-    position: relative;
-    margin-top: 6.25rem;
+.our-story-wrapper,
+.what-we-do-wrapper {
+  display: grid;
+  grid-template-columns:
+    minmax(1.875rem, 1fr) minmax(0, 41.875rem) minmax(0, 41.875rem)
+    minmax(1.875rem, 1fr);
+  position: relative;
+  margin-top: 6.25rem;
 }
 
-.what-we-do-wrapper{
-    margin-top: 0;
+.what-we-do-wrapper {
+  margin-top: 0;
 }
 
-.our-story-wrapper::before{
-    content: '';
-    position: absolute;
-    background-color: var(--primary-color);
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    grid-column: 4 / 5;
+.our-story-wrapper::before {
+  content: "";
+  position: absolute;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  grid-column: 4 / 5;
 }
 
-.our-story-wrapper .our-story-image, .what-we-do-wrapper .we-do-image{
-   grid-column: 1 / 3;
-   max-height: 37.5rem;
+.our-story-wrapper .our-story-image,
+.what-we-do-wrapper .we-do-image {
+  grid-column: 1 / 3;
+  max-height: 37.5rem;
 }
 
-.what-we-do-wrapper .we-do-image{
-    grid-column: -1 / 3;
+.what-we-do-wrapper .we-do-image {
+  grid-column: -1 / 3;
 }
 
-.our-story-wrapper .our-story-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transform: scale(1.125);
-    transform-origin: right bottom;
+.our-story-wrapper .our-story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.125);
+  transform-origin: right bottom;
 }
 
-.what-we-do-wrapper .we-do-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.what-we-do-wrapper .we-do-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.our-story-content, .we-do-content{
-    background-color: var(--primary-color);
-    height: 100%;
-    align-content: center;
-    padding-inline: 5rem;
-    padding-block: 3rem;
-    color: var(--body-background-color);
+.our-story-content,
+.we-do-content {
+  background-color: var(--primary-color);
+  height: 100%;
+  align-content: center;
+  padding-inline: 5rem;
+  padding-block: 3rem;
+  color: var(--body-background-color);
 }
 
-.what-we-do-wrapper .we-do-content{
-   grid-column: 2 / 3;
-   background-color: var(--body-background-color);
-   color: var(--hero-form-button-color);
+.what-we-do-wrapper .we-do-content {
+  grid-column: 2 / 3;
+  background-color: var(--body-background-color);
+  color: var(--hero-form-button-color);
 }
 
-.our-story-content h4, .we-do-content h4{
-    font-size: 3rem;
-    margin-bottom: .5rem;
+.our-story-content h4,
+.we-do-content h4 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
-.our-story-content p, .we-do-content p{
-    font-size: 1.2rem;
+.our-story-content p,
+.we-do-content p {
+  font-size: 1.2rem;
 }
 
-.our-story-content .site-action-button{
-    color: var(--body-background-color);
-    margin-top: 2.8rem;
+.our-story-content .site-action-button {
+  color: var(--body-background-color);
+  margin-top: 2.8rem;
 }
 
-.our-story-content .site-action-button::before{
-    border: 2px solid var(--body-background-color);
+.our-story-content .site-action-button::before {
+  border: 2px solid var(--body-background-color);
 }
 
-.our-story-content .site-action-button::after{
-    border: 2px solid var(--body-background-color);
+.our-story-content .site-action-button::after {
+  border: 2px solid var(--body-background-color);
 }
 
-.we-do-content .site-action-button{
-    color: var(--hero-form-button-color);
-    margin-top: 2.8rem;
+.we-do-content .site-action-button {
+  color: var(--hero-form-button-color);
+  margin-top: 2.8rem;
 }
 
-.we-do-content .site-action-button::before{
-    border: 2px solid var(--hero-form-button-color);
+.we-do-content .site-action-button::before {
+  border: 2px solid var(--hero-form-button-color);
 }
 
-.we-do-content .site-action-button::after{
-    border: 2px solid var(--hero-form-button-color);
+.we-do-content .site-action-button::after {
+  border: 2px solid var(--hero-form-button-color);
 }
-
 
 /*  Here is the why choose us section styling here */
- .why-choose-us .why-content {
-    color: var(--secondary-color);
-    text-align: center;
-  }
+.why-choose-us .why-content {
+  color: var(--secondary-color);
+  text-align: center;
+}
 
-  .why-content h3{
-    font-size: 3rem;
-  }
+.why-content h3 {
+  font-size: 3rem;
+}
 
-  .why-choose-us .why-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
-    gap: 3.5rem;
-    margin-top: 2.5rem;
-  }
+.why-choose-us .why-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+  gap: 3.5rem;
+  margin-top: 2.5rem;
+}
 
-  .why-choose-us .why-cards h4 {
-    color: var(--hero-form-button-color);
-    font-size: 1.5rem;
-    margin-top: 1.25rem;
-    transition: all 0.6 ease;
-  }
+.why-choose-us .why-cards h4 {
+  color: var(--hero-form-button-color);
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+  transition: all 0.6 ease;
+}
 
-  .why-choose-us .why-cards p {
-    color: var(--hero-form-button-color);
-    margin-top: 0.5rem;
-    font-size: 1.2rem;
-  }
+.why-choose-us .why-cards p {
+  color: var(--hero-form-button-color);
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
 
-  .why-choose-us .why-cards span svg {
-    width: 50px;
-    height: 50px;
-  }
+.why-choose-us .why-cards span svg {
+  width: 50px;
+  height: 50px;
+}
 
-  .why-choose-us .why-cards span svg path{
-    transition: .6s ease;
-  }
-  
-  .why-cards div:hover h4 {
-    color: var(--primary-color);
-  }
-  
-  .why-cards div {
-    transition: all 0.6s ease;
-  }
-  
-  .why-cards div:hover {
-    transform: scale(1.1);
-  }
-  
-  .why-cards div:hover path{
-    fill: var(--primary-color);
-  }
+.why-choose-us .why-cards span svg path {
+  transition: 0.6s ease;
+}
 
+.why-cards div:hover h4 {
+  color: var(--primary-color);
+}
 
-  /*  Here is the getting started section styling here */
-  .getting-started{
-    margin-block-start: 12.5rem;
-    margin-block-end: 4.375rem;
-    background-image: url('image/getting-started-background.webp');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
+.why-cards div {
+  transition: all 0.6s ease;
+}
 
-  .getting-started-wrapper{
-    background-color: var(--primary-color);
-    max-width: 28.125rem;
-    color: var(--body-background-color);
-    padding: 3rem;
-    transform: translateY(-80px);
-  }
+.why-cards div:hover {
+  transform: scale(1.1);
+}
 
-  .getting-started-wrapper h3{
-    font-size: 3rem;
-    margin-bottom: .5rem;
-  }
+.why-cards div:hover path {
+  fill: var(--primary-color);
+}
 
-  .getting-started-wrapper p{
-    font-size: 1.2rem;
-  }
+/*  Here is the getting started section styling here */
+.getting-started {
+  margin-block-start: 12.5rem;
+  margin-block-end: 4.375rem;
+  background-image: url("image/getting-started-background.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 
-  .getting-started-wrapper .site-action-button{
-    color: var(--body-background-color);
-    margin-top: 2.5rem;
-  }
+.getting-started-wrapper {
+  background-color: var(--primary-color);
+  max-width: 28.125rem;
+  color: var(--body-background-color);
+  padding: 3rem;
+  transform: translateY(-80px);
+}
 
-  .getting-started-wrapper .site-action-button::after{
-    border: 2px solid var(--body-background-color);
-  }
+.getting-started-wrapper h3 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
 
-  .getting-started-wrapper .site-action-button::before{
-    border: 2px solid var(--body-background-color);
-  }
+.getting-started-wrapper p {
+  font-size: 1.2rem;
+}
+
+.getting-started-wrapper .site-action-button {
+  color: var(--body-background-color);
+  margin-top: 2.5rem;
+}
+
+.getting-started-wrapper .site-action-button::after {
+  border: 2px solid var(--body-background-color);
+}
+
+.getting-started-wrapper .site-action-button::before {
+  border: 2px solid var(--body-background-color);
+}

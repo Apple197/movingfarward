@@ -1,3 +1,3 @@
-export function sentData(){
-    console.log('sent');
+export function sentData() {
+  console.log("sent");
 }
