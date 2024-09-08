@@ -4,6 +4,7 @@ import "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js";
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
 
 const swiper = new Swiper();
+const des = new Swiper();
 
 //Header login here
 const siteLogo = document.querySelector(".site-logo");
