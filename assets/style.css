@@ -401,3 +401,51 @@
 .getting-started-wrapper .site-action-button::before {
   border: 2px solid var(--body-background-color);
 }
+
+
+/*  Here is the testimonial section styling here */
+.client-testimonial{
+  margin-block-end: 70px;
+}
+
+.client-testimonial h3{
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--hero-form-button-color);
+}
+
+.client-feedbacks{
+  max-width: calc(calc(1280px + 60px) - 300px);
+  margin-inline: auto;
+  margin-block-start: 5rem;
+}
+
+.clients{
+  text-align: center;
+  max-width: 36.25rem;
+  font-size: 1.2rem;
+  margin-inline: auto;
+}
+
+.client{
+  color: var(--hero-form-button-color);
+  position: relative;
+}
+
+.client .qoute{
+   position: absolute;
+   left: 50%;
+   top: -1%;
+   transform: translate(-50%, -50%);
+}
+
+.qoute svg{
+  width: 5rem;
+  height: 5rem;
+}
+
+.client h5{
+  font-size: 1.4rem;
+  margin-block-start: .9rem;
+  font-family: var(--normal-paragraph-font);
+}

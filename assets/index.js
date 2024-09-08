@@ -15,6 +15,11 @@ insertDummyIcon.forEach((currElement) => {
   currElement.innerHTML = icon__Library.a_dummy_icon;
 });
 
+var quoteIcon = document.querySelectorAll('.qoute');
+quoteIcon.forEach((currentElement) => {
+   currentElement.innerHTML = icon__Library.qoute_icon;
+})
+
 function home() {
   let hostname = location.hostname;
   location.href = hostname;
