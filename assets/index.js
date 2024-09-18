@@ -38,3 +38,39 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+
+
+//FAQ Logics
+var faqArrow = document.querySelectorAll('.faq span');
+faqArrow.forEach((currentElement) => {
+   currentElement.innerHTML = icon__Library.faq_Arrow;
+})
+
+function Expand() {}
+const faq = document.querySelectorAll(".faq");
+faq.forEach((element, index) => {
+  let faqTrack = element.querySelector(".faq-ask");
+  let faqAnswer = element.querySelector(".faq-answer");
+
+  faqTrack.addEventListener("click", () => {
+    let openFaq = faqAnswer.scrollHeight;
+    element.classList.toggle("active");
+
+    if (element.classList.contains("active")) {
+      faqAnswer.style.height = `${openFaq}px`;
+    } else {
+      faqAnswer.style.height = 0;
+    }
+    collapse(index);
+  });
+});
+
+const collapse = (index) => {
+  faq.forEach((collapseElement, collapseIndex) => {
+    let collapseFaqAnswer = collapseElement.querySelector(".faq-answer");
+    if (collapseIndex != index) {
+      collapseElement.classList.remove("active");
+      collapseFaqAnswer.style.height = 0;
+    }
+  });
+};
