@@ -417,26 +417,64 @@
 .client-feedbacks{
   max-width: calc(calc(1280px + 60px) - 300px);
   margin-inline: auto;
-  margin-block-start: 5rem;
+  margin-block-start: 2.5rem;
+  position: relative;
+}
+
+.navigation-previous span svg,
+.navigation-next span svg{
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.navigation-previous span svg path,
+.navigation-next span svg path{
+   fill: var(--hero-form-button-color);
+   transition: .6s ease;
+}
+
+.navigation-next{
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+  z-index: 100;
+}
+
+.navigation-previous{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  z-index: 100;
+}
+
+.navigation-previous span svg:hover path,
+.navigation-next span svg:hover path{
+  fill: var(--primary-color);
+}
+
+.navigation-previous span svg{
+  transform: rotate(180deg);
 }
 
 .clients{
   text-align: center;
-  max-width: 36.25rem;
+  max-width: calc(36.25rem + 10rem);
   font-size: 1.2rem;
   margin-inline: auto;
+  padding-inline: 5rem !important;
 }
 
 .client{
   color: var(--hero-form-button-color);
-  position: relative;
 }
 
-.client .qoute{
-   position: absolute;
-   left: 50%;
-   top: -1%;
-   transform: translate(-50%, -50%);
+.client .qoute svg{
+   margin-block-end: -2.45rem;
+   display: block;
+   margin-inline: auto;
 }
 
 .qoute svg{
@@ -524,7 +562,7 @@
 }
 
 .faq.active .faq-ask span svg {
-  transform: rotate(-45deg);
+  transform: rotate(-180deg);
 }
 
 .faq .faq-ask:hover span svg path {

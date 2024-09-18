@@ -74,3 +74,26 @@ const collapse = (index) => {
     }
   });
 };
+
+//For Client Testimonial
+const clientFeedback = document.querySelector('.client-feedbacks .swiper');
+
+let nextButton = document.querySelector('.navigation-next span');
+let previousButton = document.querySelector('.navigation-previous span');
+nextButton.innerHTML = icon__Library.next_arrow;
+previousButton.innerHTML = icon__Library.next_arrow;
+
+if(clientFeedback){
+  new Swiper(clientFeedback, {
+    slidesPerView: "auto",
+    centeredSlides: true,
+    spaceBetween: 80,
+    loop: true,
+    autoplay: true,
+    speed: 1000,
+    navigation: {
+      nextEl: ".navigation-next",
+      prevEl: ".navigation-previous",
+    },
+  });
+}
