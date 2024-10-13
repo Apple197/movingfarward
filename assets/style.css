@@ -37,7 +37,7 @@
   color: var(--white-color);
   padding: 150px 0 80px 0;
   color: var(--body-background-color);
-  height: 100%;
+  min-height: 100vh;
 }
 
 .hero-section .container {
