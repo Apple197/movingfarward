@@ -37,7 +37,7 @@
   color: var(--white-color);
   padding: 150px 0 80px 0;
   color: var(--body-background-color);
-  min-height: 100vh
+  min-height: 100vh;
 }
 
 .hero-section .container {
@@ -402,19 +402,18 @@
   border: 2px solid var(--body-background-color);
 }
 
-
 /*  Here is the testimonial section styling here */
-.client-testimonial{
+.client-testimonial {
   margin-block-end: 70px;
 }
 
-.client-testimonial h3{
+.client-testimonial h3 {
   font-size: 2.5rem;
   text-align: center;
   color: var(--hero-form-button-color);
 }
 
-.client-feedbacks{
+.client-feedbacks {
   max-width: calc(calc(1280px + 60px) - 300px);
   margin-inline: auto;
   margin-block-start: 2.5rem;
@@ -422,19 +421,19 @@
 }
 
 .navigation-previous span svg,
-.navigation-next span svg{
-    width: 2.5rem;
-    height: 2.5rem;
-    cursor: pointer;
+.navigation-next span svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
 }
 
 .navigation-previous span svg path,
-.navigation-next span svg path{
-   fill: var(--hero-form-button-color);
-   transition: .6s ease;
+.navigation-next span svg path {
+  fill: var(--hero-form-button-color);
+  transition: 0.6s ease;
 }
 
-.navigation-next{
+.navigation-next {
   position: absolute;
   top: 50%;
   right: 0%;
@@ -442,7 +441,7 @@
   z-index: 100;
 }
 
-.navigation-previous{
+.navigation-previous {
   position: absolute;
   top: 50%;
   left: 0%;
@@ -451,15 +450,15 @@
 }
 
 .navigation-previous span svg:hover path,
-.navigation-next span svg:hover path{
+.navigation-next span svg:hover path {
   fill: var(--primary-color);
 }
 
-.navigation-previous span svg{
+.navigation-previous span svg {
   transform: rotate(180deg);
 }
 
-.clients{
+.clients {
   text-align: center;
   max-width: calc(36.25rem + 10rem);
   font-size: 1.2rem;
@@ -467,27 +466,26 @@
   padding-inline: 5rem !important;
 }
 
-.client{
+.client {
   color: var(--hero-form-button-color);
 }
 
-.client .qoute svg{
-   margin-block-end: -2.45rem;
-   display: block;
-   margin-inline: auto;
+.client .qoute svg {
+  margin-block-end: -2.45rem;
+  display: block;
+  margin-inline: auto;
 }
 
-.qoute svg{
+.qoute svg {
   width: 5rem;
   height: 5rem;
 }
 
-.client h5{
+.client h5 {
   font-size: 1.4rem;
-  margin-block-start: .9rem;
+  margin-block-start: 0.9rem;
   font-family: var(--normal-paragraph-font);
 }
-
 
 /* Here is the FAQ styling */
 .faq-section {
@@ -553,7 +551,7 @@
   border: none;
 }
 
-.faq .faq-ask span svg path{
+.faq .faq-ask span svg path {
   fill: var(--white-color);
 }
 
